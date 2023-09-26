@@ -6,6 +6,6 @@ const healthRouter = express.Router();
 
 const healthController = new HealthController();
 
-healthRouter.get("/", healthController.run.bind(healthController));
+healthRouter.post("/", healthController.run.bind(healthController));
 
 export { healthRouter };

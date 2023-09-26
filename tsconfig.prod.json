@@ -1,7 +1,7 @@
 {
-  "extends": "./tsconfig.json",
+ /* "extends": "./tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
   },
-  "exclude": ["node_modules", "tests", "playground"]
+  "exclude": ["node_modules", "tests", "playground"]*/
 }
